@@ -1,0 +1,46 @@
+html, body, p, h1, h2, h3, h4, h5, em, i, table, tr, td, th, form, input, textarea, select, li, ol, ul, strong {padding:0; margin:0;}
+html {font-size:62.5%;}
+body {background:#ffffff url(a_back1.jpg); color:#333333; font-size:10px; font-family:Arial, Helvetica, sans-serif; min-width:1000px;}
+em, i {font-style:normal;}
+li {list-style-type:none;}
+h1, h3, h4, h5 {font-weight:normal; padding:5px 0;}
+h2 {font-weight:bold; font-size:12px; color:#000080; text-align:center;}
+p {padding:2px 0; font-size:10px; text-align:justify;}
+a:active, a:focus, img, input, select {outline:0;}
+a, a:link, a:active, a:visited {color:#cc0000; cursor:pointer; text-decoration:none;}
+a:hover {color:#000000; text-decoration:underline;}
+img {border:none;}
+.clear {clear:both; font-size:0; line-height:0; height:0;}
+
+#all {padding:2px;}
+
+#header {}
+
+#content {width:100%; overflow:hidden;}
+.col_box {padding-bottom:10000px; margin-bottom:-10000px; border:1px solid #cccccc;}
+
+.col_1 {width:33%; float:left;}
+.col_1 .col_box {background:#ffffcc;}
+
+.col_2 {width:34%; float:left;}
+.col_2 .col_box {border-right:0; border-left:0; background:#fefefe url(a_back0.jpg);}
+
+.col_3 {width:33%; float:right;}
+.ip_box {background:#000000; padding:3px; border-radius:3px; color:#ffffff; margin-bottom:1px; overflow:hidden; position:relative;}
+.ip_box .ip {color:#f00000; font-size:14px; font-weight:bold; padding:0 !important; text-align:left;}
+.ip_box .ip1 {font-size:10px; text-align:left;}
+.col_3 .col_box {background:#ffffff;}
+.col_3center {border:1px solid #cccccc;}
+
+.col_cont {padding:10px;}
+.col_head {min-height:40px; padding:5px; background:#ebe6ff;}
+
+.col_10 {float:left; display:inline; padding-right:10px;}
+.col_20 {padding-right:0; position:relative; zoom:1;}
+.col_10 label {display:block; padding-bottom:4px;}
+.sel_10 {border:1px solid #9f9f9f; width:75px; height:27px; position:relative; zoom:1;}
+
+.image {width:100%; overflow:hidden; margin-bottom:1px; text-align:center;}
+.image img {max-width:100%;}
+
+#footer {text-align:center; font-size:12px; font-weight:bold; padding:5px; background:#cccccc; border:1px solid #cccccc; color:#777777;}
